@@ -12,7 +12,7 @@ from datetime import datetime
 # Load models
 yolo8n = YOLO('yolov8n.pt')
 yolo8s = YOLO('yolov8s.pt')
-yolo5s = torch.hub.load('ultralytics/yolov5', 'yolov5s')
+yolo5s = YOLO('yolov5s.pt')
 
 # Page setup
 st.set_page_config(page_title="JLL's VisionGuard", layout="wide")
