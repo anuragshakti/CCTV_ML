@@ -2,6 +2,3 @@ streamlit
 opencv-python-headless==4.8.1.78
 ultralytics==8.0.206
 torch==2.2.2
-torchvision==0.14.0
-numpy
-
